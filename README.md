@@ -577,7 +577,7 @@ pnpm run build:icons     # re-generate the browser extension's icons from their 
 ```
 
 Releases are cut automatically by **semantic-release** on push to `main` (GitHub release +
-npm publish via OIDC trusted publishing, plus the moving `v2` major tag). The version bump is
+npm publish via OIDC trusted publishing, plus the moving `v5` major tag). The version bump is
 decided by **Conventional Commits**: a commit whose subject carries no `feat:`/`fix:` prefix
 is analysed as *no release*, so a change that must ship needs at least one conventional commit
 in the range — otherwise the major alias and npm keep serving the previous version while `main`
