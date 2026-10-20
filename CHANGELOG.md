@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented here, generated automatically from the Conventional Commits by semantic-release.
 
+## [5.43.4](https://github.com/SocialGouv/ultra11y/compare/v5.43.3...v5.43.4) (2026-10-20)
+
+
+### Bug Fixes
+
+* **adjudicate:** refuse a bare NA on a criterion with harvested evidence ([#51](https://github.com/SocialGouv/ultra11y/issues/51)) ([fdb6970](https://github.com/SocialGouv/ultra11y/commit/fdb69702347640961daadaabb8f3701869e23172)), closes [#45](https://github.com/SocialGouv/ultra11y/issues/45)
+
 ## [5.43.3](https://github.com/SocialGouv/ultra11y/compare/v5.43.2...v5.43.3) (2026-10-20)
 
 
