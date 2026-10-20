@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented here, generated automatically from the Conventional Commits by semantic-release.
 
+## [5.43.1](https://github.com/SocialGouv/ultra11y/compare/v5.43.0...v5.43.1) (2026-10-20)
+
+
+### Bug Fixes
+
+* **grounding:** treat a URL file as unresolvable instead of a missing path ([#52](https://github.com/SocialGouv/ultra11y/issues/52)) ([c8f9178](https://github.com/SocialGouv/ultra11y/commit/c8f9178500fd81f0548e3c4c7b9f903f6a982ff5)), closes [#49](https://github.com/SocialGouv/ultra11y/issues/49)
+
 # [5.43.0](https://github.com/SocialGouv/ultra11y/compare/v5.42.1...v5.43.0) (2026-10-14)
 
 
