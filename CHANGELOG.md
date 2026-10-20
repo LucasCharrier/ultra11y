@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented here, generated automatically from the Conventional Commits by semantic-release.
 
+## [5.43.5](https://github.com/SocialGouv/ultra11y/compare/v5.43.4...v5.43.5) (2026-10-20)
+
+
+### Bug Fixes
+
+* **report:** stop counting a criterion left open as not applicable ([#56](https://github.com/SocialGouv/ultra11y/issues/56)) ([fb6e783](https://github.com/SocialGouv/ultra11y/commit/fb6e783dba972efd4672581551b1e7e4128d7c17)), closes [#42](https://github.com/SocialGouv/ultra11y/issues/42)
+
 ## [5.43.4](https://github.com/SocialGouv/ultra11y/compare/v5.43.3...v5.43.4) (2026-10-20)
 
 
