@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented here, generated automatically from the Conventional Commits by semantic-release.
 
+# [5.44.0](https://github.com/SocialGouv/ultra11y/compare/v5.43.5...v5.44.0) (2026-10-20)
+
+
+### Features
+
+* **scan:** honour --root for the page snapshots it writes ([#54](https://github.com/SocialGouv/ultra11y/issues/54)) ([cb20eeb](https://github.com/SocialGouv/ultra11y/commit/cb20eebcd4be5d4543958af609e3b6181a469f57)), closes [#47](https://github.com/SocialGouv/ultra11y/issues/47)
+
 ## [5.43.5](https://github.com/SocialGouv/ultra11y/compare/v5.43.4...v5.43.5) (2026-10-20)
 
 
