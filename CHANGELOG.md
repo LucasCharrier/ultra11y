@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented here, generated automatically from the Conventional Commits by semantic-release.
 
+## [5.43.2](https://github.com/SocialGouv/ultra11y/compare/v5.43.1...v5.43.2) (2026-10-20)
+
+
+### Bug Fixes
+
+* **verify:** ground a trial's retained conformity with the fold's anchor fallback ([#57](https://github.com/SocialGouv/ultra11y/issues/57)) ([b755d2c](https://github.com/SocialGouv/ultra11y/commit/b755d2c2bc333eeef7b3884274c174b9acc6121c)), closes [#50](https://github.com/SocialGouv/ultra11y/issues/50)
+
 ## [5.43.1](https://github.com/SocialGouv/ultra11y/compare/v5.43.0...v5.43.1) (2026-10-20)
 
 
