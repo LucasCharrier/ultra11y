@@ -2,6 +2,14 @@
 
 All notable changes to this project are documented here, generated automatically from the Conventional Commits by semantic-release.
 
+## [5.45.1](https://github.com/SocialGouv/ultra11y/compare/v5.45.0...v5.45.1) (2026-10-28)
+
+
+### Bug Fixes
+
+* **build:** rebuild the bundle from a project-local node_modules ([#63](https://github.com/SocialGouv/ultra11y/issues/63)) ([247861c](https://github.com/SocialGouv/ultra11y/commit/247861cfcccee45b92cb0ccf97a82eae353b95c4)), closes [#62](https://github.com/SocialGouv/ultra11y/issues/62) [#61](https://github.com/SocialGouv/ultra11y/issues/61)
+* **verify:** put agent « non applicable » verdicts on trial ([#62](https://github.com/SocialGouv/ultra11y/issues/62)) ([922847a](https://github.com/SocialGouv/ultra11y/commit/922847a5af023124e52744ce5c8e586124728d74))
+
 # [5.45.0](https://github.com/SocialGouv/ultra11y/compare/v5.44.0...v5.45.0) (2026-10-20)
 
 
