@@ -1396,8 +1396,11 @@ function render(r: AuditResult, lang: Lang, opts: RenderOpts): ReportDocuments {
   if (r.scope.truncated || r.scope.captureCoverage?.blindSpots.length) out.push(`> ⚠️ ${s.scopeCaveat}`, "");
   out.push(`> ${s.annexPointer(annexFile)}`, "");
 
-  // A short, linkable index helps readers move through the final report. Keep optional
-  // sections out when this run has no recommendations or audited pages.
+  // The report opens on the summary — the level and what to fix — so the index comes right
+  // after it, never before. Optional sections are left out when this run has none, so every
+  // entry is a link that resolves.
+  out.push(...renderSummary(summaryModel(lang, opts.std, opts.standard, tot, ncUnits, advisoryUnits.length, resolver), lang));
+
   const derivedPages = pageScope.length ? derivePages(r, pageScope) : [];
   const contents: [string, string][] = [
     ["synthesis", s.synthTitle(opts.groupHead)],
@@ -1410,8 +1413,6 @@ function render(r: AuditResult, lang: Lang, opts: RenderOpts): ReportDocuments {
     ["to-assess", s.manualTitle],
   ];
   out.push(`## ${s.contents}`, "", ...contents.map(([id, title]) => `- [${title}](#${id})`), "");
-
-  out.push(...renderSummary(summaryModel(lang, opts.std, opts.standard, tot, ncUnits, advisoryUnits.length, resolver), lang));
 
   // 1. synthesis
   const th = s.th(opts.groupHead);
